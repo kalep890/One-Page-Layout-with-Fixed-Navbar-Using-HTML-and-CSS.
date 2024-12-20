@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structuring a One-Page Layout</title>
+    <style>
+    nav{
+            text-align: center;
+            display: flexbox;
+    }  
+       
+        nav a{
+            
+            
+         
+            background-color: rgb(192, 203, 212);
+            color: black;
+            text-align: center;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        nav a:hover{
+            background-color: red;
+            color: white;
+            border-radius: 20%;
+        }
+     
+        .Header{
+            background-color: aqua;
+            width: 100%;
+            height: 200px;
+            margin-bottom: 5px;
+            text-align: left;
+            display: flex;
+            clear: both;
+        }
+        .Section{
+            background-color:blueviolet;
+            width: 100%;
+            height: 200px;
+            margin-bottom: 5px;
+            text-align: left;
+            display: flex;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+    <a href="Home">Home</a>  
+   <a href="Team">Team</a>    
+    <a href="About">About</a>  
+   <a href="Review">Review</a> 
+    <a href="Project">Project</a>  
+    <a href="Plans">Plans</a>   
+</nav>
+
+
+<div class="Header">This is header file</div>
+<div class="Section">This is Service Section</div>
+
+</body>
+</html>
